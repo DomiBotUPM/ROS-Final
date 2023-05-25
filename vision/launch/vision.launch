@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="vision" name="get_robot_pieces_values"  type="get_robot_pieces_values.py" output="screen"/>
+  <node pkg="vision" name="get_positions_to_take"  type="get_positions_to_take.py" output="screen"/>
+  <node pkg="vision" name="get_all_pieces_tablero"  type="get_all_pieces_tablero.py" output="screen"/>
+
+</launch>
